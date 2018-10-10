@@ -4,7 +4,6 @@
 	<description>An Android game for small children.</description>
 	<author href="teddytom.de" email="info@punkt-um-film.de">punkt um FILM</author>
 
-	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
 	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
 
 	<preference name="android-targetSdkVersion" value="26" />
