@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.punktumfilm.teddytom_merkfix" version="2.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.punktumfilm.teddytom_merkfix" version="2.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Teddy Tom Merkfix</name>
 	<description>An Android game for small children.</description>
 	<author href="teddytom.de" email="info@punkt-um-film.de">punkt um FILM</author>
 
+	<icon src="www/icon-256.png" width="256" height="256" density="xxxhdpi" />
 	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
 
 	<preference name="android-targetSdkVersion" value="26" />
@@ -17,13 +18,15 @@
 	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
 
 
-	<preference name="deployment-target" value="8.0" />
-	<preference name="android-minSdkVersion" value="23" />
+	<preference name="deployment-target" value="10.0" />
+	<preference name="android-minSdkVersion" value="26" />
 	<access origin="*" />
 
 	<plugin name="cordova-custom-config" />
+	<plugin name="cordova-plugin-file" />
 	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-wkwebview-engine" />
 
 
 	<engine name="ios" />
